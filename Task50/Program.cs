@@ -51,7 +51,7 @@ void FindElements(int[,] matrix, int x , int y)
 {
    if(x >= matrix.GetLength(0)   | y >= matrix.GetLength(1) )
     {
-     Console.WriteLine("Tакого числа в массиве нет");
+     Console.WriteLine("Элемента с таким индексом в массиве нет");
      return;
     }
    if(x < 0 | y < 0)
